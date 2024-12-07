@@ -1,0 +1,96 @@
+:root {
+    /* Define a base font size for easy scaling */
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Figtree-Italic-VariableFont_wght'; /* The name you'll use in CSS */
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype'); /* Path to the font file */
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245,208,78,255);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree-Italic-VariableFont_wght' , sans-serif
+    line-height 1.5;
+
+}
+
+.blog{
+    background-color: white;
+    width: 75%;
+    max-width: 25em;
+    padding: 1.5em;
+    line-height: 1.8;
+    border-radius: 1.5em;
+    
+    box-shadow: 12px 5px 2px black;
+    
+}
+
+.img1{
+    border-radius: 1em;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    border: none;
+    padding: 0.5em;
+}
+
+.para1{
+    background-color: rgba(245,208,78,255);
+    display: inline;
+    text-align: start;
+    padding: 0.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5em;
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 1.2rem;
+
+}
+
+.para2{
+    display: block;
+    margin-top: 0.5em;
+    color: #898989;
+    font-weight: bold;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+}
+.para3{
+    display: block;
+    color:#898989;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+}
+
+.last{
+    display: flex;
+    gap: 1em;
+    align-items: flex-end;
+    font-weight: bold;
+}
+.img2{
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.2em;
+    border: none;
+
+ 
+}
+.para4{
+
+    font-size: 1.3rem;
+
+}
